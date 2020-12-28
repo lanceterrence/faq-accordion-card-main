@@ -76,14 +76,29 @@
             height: 0; }
           .container .box .row .col.list ul #faq-one.active p.one {
             display: block; }
+          .container .box .row .col.list ul #faq-one.active img {
+            animation: arrowAnimationToggle 0.3s ease;
+            transform: rotateZ(180deg); }
           .container .box .row .col.list ul #faq-two.active p.two {
             display: block; }
+          .container .box .row .col.list ul #faq-two.active img {
+            animation: arrowAnimationToggle 0.3s ease;
+            transform: rotateZ(180deg); }
           .container .box .row .col.list ul #faq-three.active p.three {
             display: block; }
+          .container .box .row .col.list ul #faq-three.active img {
+            animation: arrowAnimationToggle 0.3s ease;
+            transform: rotateZ(180deg); }
           .container .box .row .col.list ul #faq-four.active p.four {
             display: block; }
+          .container .box .row .col.list ul #faq-four.active img {
+            animation: arrowAnimationToggle 0.3s ease;
+            transform: rotateZ(180deg); }
           .container .box .row .col.list ul #faq-five.active p.five {
             display: block; }
+          .container .box .row .col.list ul #faq-five.active img {
+            animation: arrowAnimationToggle 0.3s ease;
+            transform: rotateZ(180deg); }
 
 @media (min-width: 900px) {
   .container .box {
@@ -158,6 +173,12 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+
+@keyframes arrowAnimationToggle {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(180deg); } }
 
 h1,
 h2,

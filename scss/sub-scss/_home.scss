@@ -118,11 +118,21 @@
                         p.one {
                             display: block;
                         }
+
+                        img {
+                            animation: arrowAnimationToggle 0.3s ease;
+                            transform: rotateZ(180deg);
+                        }
                     }
 
                     #faq-two.active {
                         p.two {
                             display: block;
+                        }
+
+                        img {
+                            animation: arrowAnimationToggle 0.3s ease;
+                            transform: rotateZ(180deg);
                         }
                     }
 
@@ -130,17 +140,32 @@
                         p.three {
                             display: block;
                         }
+
+                        img {
+                            animation: arrowAnimationToggle 0.3s ease;
+                            transform: rotateZ(180deg);
+                        }
                     }
 
                     #faq-four.active {
                         p.four {
                             display: block;
                         }
+
+                        img {
+                            animation: arrowAnimationToggle 0.3s ease;
+                            transform: rotateZ(180deg);
+                        }
                     }
 
                     #faq-five.active {
                         p.five {
                             display: block;
+                        }
+
+                        img {
+                            animation: arrowAnimationToggle 0.3s ease;
+                            transform: rotateZ(180deg);
                         }
                     }
                 }
@@ -281,5 +306,15 @@
 
     to {
         opacity: 1;
+    }
+}
+
+@keyframes arrowAnimationToggle {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(180deg);
     }
 }
